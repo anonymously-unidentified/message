@@ -5,7 +5,7 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "You broke my heart!";
+  question.innerHTML = "You broke my heart";
   gif.src =
     "https://media.giphy.com/media/5MxFJWDSm3boe6wigL/giphy.gif";
 });
