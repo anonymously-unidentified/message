@@ -5,9 +5,9 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "You broke my heart, Now, I feel lonely!😂";
+  question.innerHTML = "Yay! Can't wait to see you.";
   gif.src =
-    "https://media.giphy.com/media/5MxFJWDSm3boe6wigL/giphy.gif";
+    "https://media.giphy.com/media/fHGl1MDMNkO6fOaFDF/giphy.gif";
 });
 
 noBtn.addEventListener("mouseover", () => {
